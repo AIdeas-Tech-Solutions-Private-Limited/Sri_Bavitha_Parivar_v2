@@ -98,6 +98,16 @@
       window.requestAnimationFrame(function () {
         setActiveNav();
         updateBackToTop();
+
+        // Header polish: add class when scrolled past a threshold
+        if (header) {
+          if (window.pageYOffset > 50) {
+            header.classList.add("is-scrolled");
+          } else {
+            header.classList.remove("is-scrolled");
+          }
+        }
+
         scrollTicking = false;
       });
       scrollTicking = true;

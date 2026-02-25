@@ -18,14 +18,14 @@
         {
           data: [40, 30, 30],
           backgroundColor: [
-            "#6C00B0" /* Dark Purple */,
-            "#B428FD" /* Light Purple */,
-            "#9010E0" /* Mid Purple */,
+            "#6848FF" /* Primary Brand Purple */,
+            "#8B6FFF" /* Light Purple */,
+            "#4E30E0" /* Dark Purple */,
           ],
           borderColor: "rgba(255, 255, 255, 0.3)",
           borderWidth: 1,
           hoverOffset: 8,
-          hoverBorderColor: "rgba(180, 40, 253, 0.8)",
+          hoverBorderColor: "rgba(104, 72, 255, 0.8)",
           hoverBorderWidth: 2,
         },
       ],

@@ -23,10 +23,10 @@
     "L-10",
   ];
   var data = [12, 9, 7, 6, 5, 4, 3, 2, 1, 1];
-  var gold = "rgba(108, 0, 176, 0.9)";
-  var goldBorder = "rgba(180, 40, 253, 0.6)";
-  var silver = "rgba(180, 40, 253, 0.15)";
-  var silverBorder = "rgba(180, 40, 253, 0.3)";
+  var gold = "rgba(104, 72, 255, 0.9)";
+  var goldBorder = "rgba(104, 72, 255, 0.6)";
+  var silver = "rgba(104, 72, 255, 0.15)";
+  var silverBorder = "rgba(104, 72, 255, 0.3)";
   var backgroundColors = [];
   var borderColors = [];
   for (var i = 0; i < data.length; i++) {
@@ -62,7 +62,7 @@
           beginAtZero: true,
           max: 12,
           grid: {
-            color: "rgba(108, 0, 176, 0.1)",
+            color: "rgba(104, 72, 255, 0.1)",
             drawBorder: false,
           },
           ticks: {
@@ -91,9 +91,9 @@
         },
         tooltip: {
           backgroundColor: "rgba(18, 18, 18, 0.92)",
-          titleColor: "#B428FD",
+          titleColor: "#6848FF",
           bodyColor: "#ffffff",
-          borderColor: "rgba(180, 40, 253, 0.4)",
+          borderColor: "rgba(104, 72, 255, 0.4)",
           borderWidth: 1,
           padding: 10,
           callbacks: {
