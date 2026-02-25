@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      SRI BAVITHA PARIVAR PRODUCER COMPANY LTD — Opportunity &amp; Income Plan
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <a href="#hero" class="logo">SRI BAVITHA PARIVAR</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about-company">Company</a></li>
+            <li><a href="#founder">Founder</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#bonanza">Bonanza</a></li>
+            <li><a href="#terms">Terms</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a href="#" class="btn-header btn-header-outline">Login</a>
+          <a href="#" class="btn-header btn-header-gold">Register</a>
+        </div>
+        <button
+          class="nav-toggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+        ></button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ========== 1. HERO — Awards Carousel ========== -->
+      <section id="hero" class="section hero">
+        <div
+          class="awards-carousel"
+          id="awardsCarousel"
+          role="region"
+          aria-label="Awards &amp; Recognition"
+        >
+          <div class="awards-carousel-track" id="awardsCarouselTrack">
+            <!-- Slide 1 -->
+            <div class="awards-slide" role="group" aria-label="Award 1 of 4">
+              <div class="awards-slide-img-wrap">
+                <img
+                  src="assets/awards_1.png"
+                  alt="Vijay Bharat Puraskar"
+                  class="awards-slide-img"
+                />
+                <div class="awards-slide-img-glow"></div>
+              </div>
+              <div class="awards-slide-content">
+                <span class="awards-slide-badge">&#127942; National Award</span>
+                <h2 class="awards-slide-title">Vijay Bharat Puraskar</h2>
+                <p class="awards-slide-location">&#128205; New Delhi</p>
+                <p class="awards-slide-desc">
+                  Awarded in recognition of outstanding contribution and
+                  exemplary leadership at the national level.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="awards-slide" role="group" aria-label="Award 2 of 4">
+              <div class="awards-slide-img-wrap">
+                <img
+                  src="assets/awards_2.png"
+                  alt="Dr. APJ Abdul Kalam Excellence Award"
+                  class="awards-slide-img"
+                />
+                <div class="awards-slide-img-glow"></div>
+              </div>
+              <div class="awards-slide-content">
+                <span class="awards-slide-badge"
+                  >&#127942; Excellence Award</span
+                >
+                <h2 class="awards-slide-title">
+                  Dr. APJ Abdul Kalam Excellence Award
+                </h2>
+                <p class="awards-slide-location">&#128205; New Delhi</p>
+                <p class="awards-slide-desc">
+                  Honoured for exceptional commitment to innovation, social
+                  welfare, and community empowerment across India.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="awards-slide" role="group" aria-label="Award 3 of 4">
+              <div class="awards-slide-img-wrap">
+                <img
+                  src="assets/awards_3.png"
+                  alt="Ugadhi Prathibha Puraskar"
+                  class="awards-slide-img"
+                />
+                <div class="awards-slide-img-glow"></div>
+              </div>
+              <div class="awards-slide-content">
+                <span class="awards-slide-badge"
+                  >&#127942; Prathibha Award</span
+                >
+                <h2 class="awards-slide-title">Ugadhi Prathibha Puraskar</h2>
+                <p class="awards-slide-location">&#128205; Hyderabad</p>
+                <p class="awards-slide-desc">
+                  Recognised for inspiring talent, leadership, and dedication to
+                  the upliftment of rural communities.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="awards-slide" role="group" aria-label="Award 4 of 4">
+              <div class="awards-slide-img-wrap">
+                <img
+                  src="assets/awards_4.png"
+                  alt="Honourary Doctorate"
+                  class="awards-slide-img"
+                />
+                <div class="awards-slide-img-glow"></div>
+              </div>
+              <div class="awards-slide-content">
+                <span class="awards-slide-badge"
+                  >&#127891; Honorary Doctorate</span
+                >
+                <h2 class="awards-slide-title">Honourary Doctorate</h2>
+                <p class="awards-slide-location">&#128205; Bangalore</p>
+                <p class="awards-slide-desc">
+                  Conferred for a lifetime of remarkable service and visionary
+                  leadership in wellness and rural development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- /.awards-carousel-track -->
+
+          <!-- Prev / Next arrows -->
+          <button
+            class="awards-carousel-btn awards-carousel-btn--prev"
+            id="awardsCarouselPrev"
+            aria-label="Previous award"
+          >
+            &#8592;
+          </button>
+          <button
+            class="awards-carousel-btn awards-carousel-btn--next"
+            id="awardsCarouselNext"
+            aria-label="Next award"
+          >
+            &#8594;
+          </button>
+
+          <!-- Dot indicators -->
+          <div
+            class="awards-carousel-dots"
+            id="awardsCarouselDots"
+            role="tablist"
+            aria-label="Slide indicators"
+          >
+            <button
+              class="awards-dot is-active"
+              role="tab"
+              aria-selected="true"
+              aria-label="Slide 1"
+              data-slide="0"
+            ></button>
+            <button
+              class="awards-dot"
+              role="tab"
+              aria-selected="false"
+              aria-label="Slide 2"
+              data-slide="1"
+            ></button>
+            <button
+              class="awards-dot"
+              role="tab"
+              aria-selected="false"
+              aria-label="Slide 3"
+              data-slide="2"
+            ></button>
+            <button
+              class="awards-dot"
+              role="tab"
+              aria-selected="false"
+              aria-label="Slide 4"
+              data-slide="3"
+            ></button>
+          </div>
+        </div>
+        <!-- /.awards-carousel -->
+      </section>
+
+      <!-- ========== 2. About the Company ========== -->
+      <section id="about-company" class="section about-company">
+        <div class="container">
+          <h2 class="section-title">About the Company</h2>
+          <div class="about-company-body">
+            <p class="about-intro">
+              <strong>Sri Bavitha Parivar Producer Company Ltd</strong> is a
+              registered producer company dedicated to empowering rural
+              communities and individuals across India through a transparent and
+              structured income opportunity plan. We believe in the power of
+              collective growth — bringing together farmers, entrepreneurs, and
+              everyday individuals under one roof to create sustainable
+              livelihoods. Rooted in trust, compliance, and community values, we
+              are committed to delivering real economic value to every member of
+              our growing family.
+            </p>
+
+            <div class="about-vm-block">
+              <h3 class="about-vm-heading">Our Vision:</h3>
+              <p class="about-vm-text">
+                Fuelled by a dream and determination to be a change maker and
+                torch bearer, Sri Bavitha Parivar strives to help individuals
+                overcome economic hardships, unlock financial freedom, and build
+                a life of dignity and abundance. The organisation aims to prove
+                that every individual — regardless of background — possesses
+                unfailing determination in their holistic lives. Sri Bavitha
+                Parivar seeks to bring a new paradigm in thinking, strengthen
+                financial stability, and mould personalities to stand firm
+                forever.
+              </p>
+            </div>
+
+            <div class="about-vm-block">
+              <h3 class="about-vm-heading">Our Mission:</h3>
+              <p class="about-vm-text">
+                To motivate and guide people of all sections through education,
+                support, and expert guidance to overcome hurdles and
+                insurmountable challenges. Sri Bavitha Parivar works to prevent
+                economic breakdown that may cause harm to families, society, and
+                the nation, and encourages individuals to balance personal,
+                professional, and social life. Through creative thinking,
+                training, counselling, and awareness programmes, Sri Bavitha
+                Parivar empowers members with courage, insight, and the strength
+                to achieve lasting prosperity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 3. About the Founder ========== -->
+      <section id="founder" class="section founder">
+        <div class="container">
+          <h2 class="section-title">About Founder</h2>
+          <div class="founder-content">
+            <div class="founder-image-wrap">
+              <img
+                src="assets/samuel_reddy.png"
+                alt="Dr. E. Samuel Reddy — Founder &amp; Chairman"
+              />
+            </div>
+            <div class="founder-text">
+              <p class="founder-name">Dr. E. Samuel Reddy</p>
+              <p class="founder-role">Founder &amp; Chairman</p>
+              <p>
+                Samuel Reddy is the
+                <strong>FOUNDER AND CHAIRMAN OF SUGUNA GROUP, GUNTUR</strong>.
+                Samuel Reddy is a man of simple living and high thinking with
+                excellent Leadership and management skills. Being a Disciple of
+                Dr. SH. KUL AKARNI, SAMUEL REDDY Developed The Art of Learning
+                and Teaching Life Success Skills. He is another Extraordinary
+                Coach and Inspirational Workshop Leader.
+              </p>
+              <p>
+                His commitment to Define <strong>TRUE WELLNESS</strong> to Every
+                INDIAN, Especially Our RURAL COMMUNITY Made Him to Adapt a
+                MISSION Called <strong>RURAL WELLNESS CENTER</strong> — A
+                MOVEMENT initiated by INDOSYS LIFE WELLNESS OPEN UNIVERSITY.
+                SAMUEL REDDY Believes in CREATING SPACE for the people to learn,
+                practice and perform. Dr. E. SAMUEL REDDY is a true visionary
+                and his sincerely partner for success with those associated with
+                him.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 4. Products ========== -->
+      <section id="products" class="section products">
+        <div class="container">
+          <h2 class="section-title">Products</h2>
+          <div class="products-grid">
+            <article class="product-card">
+              <div class="product-card-img-wrap">
+                <img
+                  class="product-card-img"
+                  src="assets/poorna_poshak.png"
+                  alt="Poorna Poshak supplement jar"
+                />
+              </div>
+              <h3>Poorna Poshak</h3>
+              <p class="product-price">₹10,000 / ₹25,000 Package</p>
+              <p class="product-desc">Entry point</p>
+            </article>
+            <article class="product-card product-coming-soon">
+              <span class="badge">Coming Soon</span>
+              <div class="product-card-img-wrap">
+                <img
+                  class="product-card-img"
+                  src="assets/coming_soon.png"
+                  alt="Coming soon"
+                />
+              </div>
+              <h3>₹50,000 Package</h3>
+              <p class="product-price">₹50,000</p>
+              <p class="product-desc">Entry point</p>
+            </article>
+            <article class="product-card">
+              <div class="product-card-img-wrap">
+                <img
+                  class="product-card-img"
+                  src="assets/e_bike.png"
+                  alt="E-Bike electric scooter"
+                />
+              </div>
+              <h3>E-Bike Investment</h3>
+              <p class="product-price">₹1,00,000</p>
+              <p class="product-desc">Mobility-focused package</p>
+            </article>
+            <article class="product-card">
+              <div class="product-card-img-wrap">
+                <img
+                  class="product-card-img"
+                  src="assets/water_ionizer.webp"
+                  alt="Water Ionizer"
+                />
+              </div>
+              <h3>Water Ionizer</h3>
+              <p class="product-price">₹3,00,000</p>
+              <p class="product-desc">Premium package</p>
+            </article>
+            <article class="product-card">
+              <div class="product-card-img-wrap">
+                <img
+                  class="product-card-img"
+                  src="assets/land.jpg"
+                  alt="Real estate land plot"
+                />
+              </div>
+              <h3>Real-Estate</h3>
+              <p class="product-price">₹3,00,000 to ₹10,00,000</p>
+              <p class="product-desc">
+                Premium package — Flat, House, Land, Agriculture land
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="roi" class="section roi">
+        <div class="container">
+          <h2 class="section-title">Investment Packages &amp; ROI Details</h2>
+          <div class="table-wrap">
+            <table class="roi-table" role="grid">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Package</th>
+                  <th>With Product</th>
+                  <th>Without Product</th>
+                  <th>Working Days</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Package 10,000 / 25,000</td>
+                  <td>₹10,000, ₹25,000</td>
+                  <td>0.5% Daily</td>
+                  <td>1% Daily</td>
+                  <td>200 Working Days</td>
+                </tr>
+                <tr>
+                  <td>Coming Soon</td>
+                  <td>₹50,000</td>
+                  <td>0.5% Daily</td>
+                  <td>1% Daily</td>
+                  <td>200 Working Days</td>
+                </tr>
+                <tr>
+                  <td>E-Bike Package</td>
+                  <td>₹1,00,000</td>
+                  <td>0.5% Daily</td>
+                  <td>1% Daily</td>
+                  <td>200 Working Days</td>
+                </tr>
+                <tr>
+                  <td>Water Ionizer</td>
+                  <td>₹3,00,000</td>
+                  <td>0.5% Daily</td>
+                  <td>1% Daily</td>
+                  <td>200 Working Days</td>
+                </tr>
+                <tr>
+                  <td>Real-Estate</td>
+                  <td>₹3,00,000 to ₹10,00,000</td>
+                  <td>0.5% Daily</td>
+                  <td>1% Daily</td>
+                  <td>200 Working Days</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section id="income-types" class="section income-types">
+        <div class="container">
+          <h2 class="section-title">Types of Income</h2>
+          <div class="income-cards">
+            <div class="income-card">
+              <span class="income-icon" aria-hidden="true">ROI</span>
+              <h3>Daily ROI Income</h3>
+            </div>
+            <div class="income-card highlight">
+              <span class="income-icon" aria-hidden="true">5%</span>
+              <h3>5% Direct Referral</h3>
+            </div>
+            <div class="income-card">
+              <span class="income-icon" aria-hidden="true">10</span>
+              <h3>10 Levels of Income</h3>
+            </div>
+            <div class="income-card">
+              <span class="income-icon" aria-hidden="true">CC</span>
+              <h3>Chairman Club</h3>
+            </div>
+            <div class="income-card">
+              <span class="income-icon" aria-hidden="true">B</span>
+              <h3>Bonanza Rewards</h3>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section id="direct-referral" class="section direct-referral">
+        <div class="container">
+          <h2 class="section-title">Direct Referral Income</h2>
+          <p class="referral-cta">Refer and Get <strong>5%</strong></p>
+        </div>
+      </section> -->
+
+      <!-- <section id="level-incomes" class="section level-incomes">
+        <div class="container">
+          <h2 class="section-title">Level Incomes</h2>
+          <div class="level-chart-wrap">
+            <div
+              class="level-chart-canvas-wrap"
+              aria-label="Level incomes bar chart: L-1 12% down to L-10 1%"
+            >
+              <canvas id="levelIncomesChart"></canvas>
+            </div>
+            <p class="level-chart-legend">Need Direct Referrals</p>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section id="chairman-club" class="section chairman-club">
+        <div class="container">
+          <h2 class="section-title">Chairman Club</h2>
+          <div class="chairman-content">
+            <h3>Eligibility Criteria</h3>
+            <p>
+              If the monthly turnover reaches
+              <strong>₹1,00,00,000 (1Cr)</strong> (from direct referrals or
+              branch referrals)
+            </p>
+            <ul>
+              <li>The bonus will be reset at the end of each month.</li>
+              <li>
+                Any undistributed amount will not be carried forward to the next
+                month.
+              </li>
+            </ul>
+            <h3>Reward</h3>
+            <p>
+              The company allocates <strong>2%</strong> of the total monthly
+              company turnover into a Chairman Club Pool. This 2% pool amount
+              will be distributed equally among all eligible Chairman Club
+              members.
+            </p>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- ========== 5. Bonanza ========== -->
+      <!-- <section id="bonanza-structure" class="section bonanza-structure">
+        <div class="container">
+          <h2 class="bonanza-structure-title">
+            Bonanza
+            <span class="bonanza-structure-highlight">Rewards</span> Structure
+          </h2>
+          <div class="bonanza-structure-content">
+            <div class="bonanza-left">
+              <div
+                class="bonanza-pie"
+                aria-label="Pie chart: Primary Leg 40%, Secondary Leg 30%, Tertiary Leg 30%"
+              >
+                <canvas id="bonanzaPieChart" width="280" height="280"></canvas>
+              </div>
+              <div class="bonanza-pie-legend">
+                <div class="bonanza-legend-item">
+                  <span
+                    class="bonanza-legend-dot bonanza-legend-dot-primary"
+                  ></span>
+                  <span class="bonanza-legend-text"
+                    ><strong class="bonanza-legend-title"
+                      >Primary Leg</strong
+                    ></span
+                  >
+                </div>
+                <div class="bonanza-legend-item">
+                  <span
+                    class="bonanza-legend-dot bonanza-legend-dot-secondary"
+                  ></span>
+                  <span class="bonanza-legend-text"
+                    ><strong class="bonanza-legend-title"
+                      >Secondary Leg</strong
+                    ></span
+                  >
+                </div>
+                <div class="bonanza-legend-item">
+                  <span
+                    class="bonanza-legend-dot bonanza-legend-dot-tertiary"
+                  ></span>
+                  <span class="bonanza-legend-text"
+                    ><strong class="bonanza-legend-title"
+                      >Tertiary Leg</strong
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="bonanza-notes">
+              <p>
+                To qualify for bonanza rewards, your business must be generated
+                across three different legs of your organization. Single-leg
+                business does not qualify, ensuring you build a sustainable and
+                diversified network.
+              </p>
+              <p>
+                <strong>Qualification Ratio: 40% : 30% : 30%</strong> — Your
+                strongest leg can contribute up to 40% of the required business,
+                while your other two legs must contribute 30% each. This
+                structure promotes balanced team development and long-term
+                stability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section id="bonanza" class="section bonanza">
+        <div class="container">
+          <h2 class="section-title">Bonanza Rewards</h2>
+          <div class="bonanza-carousel" aria-label="Bonanza rewards carousel">
+            <div class="bonanza-carousel-track">
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_1.jpg&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 1</h3>
+                  <p class="bonanza-carousel-reward">Bike</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹20,00,000 group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_2.png&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 2</h3>
+                  <p class="bonanza-carousel-reward">Bullet</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹30,00,000 group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_3.jpg&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 3</h3>
+                  <p class="bonanza-carousel-reward">Car Fund</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹1Cr group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_4.png&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 4</h3>
+                  <p class="bonanza-carousel-reward">Mahindra XUV 700</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹2Cr group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_5.jpg&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 5</h3>
+                  <p class="bonanza-carousel-reward">Open Plot</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹5Cr group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_6.webp&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 6</h3>
+                  <p class="bonanza-carousel-reward">House Villa</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹10Cr group business
+                  </p>
+                </div>
+              </article>
+              <!-- Scroll loop duplicates -->
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_1.jpg&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 1</h3>
+                  <p class="bonanza-carousel-reward">Bike</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹20,00,000 group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_2.png&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 2</h3>
+                  <p class="bonanza-carousel-reward">Bullet</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹30,00,000 group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_3.jpg&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 3</h3>
+                  <p class="bonanza-carousel-reward">Car Fund</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹1Cr group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_4.png&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 4</h3>
+                  <p class="bonanza-carousel-reward">Mahindra XUV 700</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹2Cr group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_5.jpg&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 5</h3>
+                  <p class="bonanza-carousel-reward">Open Plot</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹5Cr group business
+                  </p>
+                </div>
+              </article>
+              <article
+                class="bonanza-carousel-card"
+                style="background-image: url(&quot;assets/bonanza_6.webp&quot;)"
+              >
+                <div class="bonanza-carousel-overlay">
+                  <h3>BONANZA 6</h3>
+                  <p class="bonanza-carousel-reward">House Villa</p>
+                  <p class="bonanza-carousel-target">
+                    Achieve ₹10Cr group business
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 6. Bangkok ========== -->
+      <section id="pre-launch" class="section pre-launch">
+        <div class="container">
+          <h2 class="section-title">Pre-Launch Offer – Bangkok Tour</h2>
+          <div class="pre-launch-content">
+            <div class="pre-launch-left">
+              <p class="pre-launch-para">
+                As a token of appreciation for your trust and commitment, Sri
+                Bavitha Parivar Producer Company Ltd is proud to offer an
+                exclusive <strong>Bangkok Tour</strong> — a fully curated
+                international travel experience for you and your loved ones.
+                This special reward is designed to celebrate your success and
+                allow you to create unforgettable memories with family and
+                friends in one of Asia's most vibrant destinations. The Bangkok
+                Tour covers handpicked attractions, comfortable stays, and
+                guided experiences — a truly premium getaway that reflects the
+                value we place on every member of our growing community.
+              </p>
+              <p class="pre-launch-tnc">
+                * Terms &amp; Conditions apply as per the official Company
+                Presentation (PPT). Please refer to the PPT for complete
+                eligibility criteria and tour details.
+              </p>
+            </div>
+            <div class="pre-launch-right">
+              <img
+                class="pre-launch-image"
+                src="assets/bangkok.png"
+                alt="Bangkok tour destination"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 7. Terms and Conditions ========== -->
+      <section id="terms" class="section terms">
+        <div class="container">
+          <h2 class="section-title">Terms and Conditions</h2>
+          <ul class="terms-list">
+            <li>
+              Daily ROI is performance-based and applicable for up to 200
+              working days as per selected package.
+            </li>
+            <li>
+              Land security (if opted) is limited to the investment amount and
+              valid for 200 working days.
+            </li>
+            <li>
+              Direct referral income and level income are paid as per the
+              defined structure and eligibility criteria.
+            </li>
+            <li>
+              Rewards, Chairman Club benefits, and tour incentives are subject
+              to qualification rules and verification.
+            </li>
+            <li>
+              Group business must follow the required ratio structure to qualify
+              for certain rewards.
+            </li>
+            <li>
+              All payouts are subject to applicable taxes and company payout
+              schedules.
+            </li>
+            <li>Payouts are weekly — 5 Days.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== 8. Footer ========== -->
+    <footer class="site-footer">
+      <div class="container">
+        <p class="footer-thanks">Thank you</p>
+        <p class="footer-company">SRI BAVITHA PARIVAR PRODUCER COMPANY LTD</p>
+        <p>
+          <a href="#terms">Terms</a> · <a href="#legal">Legal Documents</a> ·
+          <a href="#">Contact us</a>
+        </p>
+      </div>
+    </footer>
+
+    <a href="#hero" class="back-to-top" aria-label="Back to top"></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <script src="js/bonanza-chart.js"></script>
+    <script src="js/level-chart.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
